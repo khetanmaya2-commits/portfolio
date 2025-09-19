@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>AboutMe</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h1>Hello,I'm Maya,<br>a Web Developer</h1>
+            <p>I create responsive and user-friendly websites. <br>
+            With a passion for coding and design, I bring ideas to life on the web. <br>
+            Let's build something great together!
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="maya.jpeg" alt="profile-pic" class="profilepic">
+            <p class="caption">Maya Khetan</p>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <ul class="skills-list">
+            <li><img src="html.png" alt="html">HTML</li>
+            <li><img src="css.png" alt="css">CSS</li>
+            <li><img src="javascript.png" alt="javascript">JavaScript</li>
+            <li><img src="python.png" alt="python">Python</li>
+            <li><img src="java.png" alt="java">Java</li>
+        </ul>    
+    </section>
+
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="project-grid">
+            <div class="project-card">
+                <h2>Project One</h2>
+                <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h2>Project Two</h2>
+                <p>A task management app developed using React and Node.js.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h2>Project Three</h2>
+                <p>An e-commerce website created with Django and Bootstrap.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>    
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <form action="" class="contact-form">
+            <h2>Contact Form</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <input type="textarea" id="message" name="message" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Maya Khetan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
